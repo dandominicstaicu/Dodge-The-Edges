@@ -66,9 +66,12 @@
     <Compile Include="Assets\CharacterController2D.cs" />
     <Compile Include="Assets\Death.cs" />
     <Compile Include="Assets\gravitation.cs" />
+    <Compile Include="Assets\MedKit.cs" />
     <Compile Include="Assets\MobileDamageController.cs" />
     <Compile Include="Assets\MobileHealthController.cs" />
+    <Compile Include="Assets\NewBehaviourScript.cs" />
     <Compile Include="Assets\PlayerMovement.cs" />
+    <Compile Include="Assets\Waypoints.cs" />
     <Reference Include="Unity.Timeline.Editor">
       <HintPath>C:/Users/Rares/Desktop/UBISOFT/JocConcurs/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
     </Reference>
