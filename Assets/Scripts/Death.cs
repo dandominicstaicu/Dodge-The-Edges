@@ -11,7 +11,7 @@ public class Death : MonoBehaviour
     {
         if(health.playerHealth<0.1)
         {
-            Application.LoadLevel("Sample Scene");
+            Application.LoadLevel("DeathScene");
         }
     }
 }
