@@ -64,6 +64,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\CharacterController2D.cs" />
+    <Compile Include="Assets\Death.cs" />
     <Compile Include="Assets\gravitation.cs" />
     <Compile Include="Assets\MobileDamageController.cs" />
     <Compile Include="Assets\MobileHealthController.cs" />

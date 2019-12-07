@@ -12,4 +12,11 @@ public class MobileHealthController : MonoBehaviour
     {
         healthText.text = playerHealth.ToString("0");
     }
+    void Update()
+    {
+        if (playerHealth < 0)
+        {
+            Application.LoadLevel("Untitled");
+        }
+    }
 }

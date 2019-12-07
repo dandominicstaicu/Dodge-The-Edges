@@ -23,11 +23,7 @@ public class PlayerMovement : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-
         horizontalMove = Input.GetAxisRaw("Horizontal") * runSpeed;
-
-        
-
         if (Input.GetButtonDown("Jump"))
         {
             jump = true;
@@ -42,20 +38,16 @@ public class PlayerMovement : MonoBehaviour
         {
             crouch = false;
         }
-        if (Input.GetMouseButtonDown(0))
-        {
-            rb2d.gravityScale =3;
-        }
-        if (Input.GetMouseButtonDown(1))
+        if (Input.GetButtonDown("GravityUp"))
         {
             rb2d.gravityScale =-3;
         }
+        if (Input.GetButtonDown("GravityDown"))
+        {
+            rb2d.gravityScale =3;
+        }
 
     }
-
-   
-
-
     void FixedUpdate()
     {
         // Move our character
