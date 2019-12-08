@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class MobileHealthController : MonoBehaviour
 {
@@ -12,11 +13,14 @@ public class MobileHealthController : MonoBehaviour
     {
         healthText.text = playerHealth.ToString("0");
     }
+    void Start()
+    {
+        PlayerPrefs.SetInt("lastLevel", SceneManager.GetActiveScene().buildIndex);
+    }
     void Update()
     {
         if (playerHealth <= 0)
         {
-
             Application.LoadLevel("DeathScene");
         }
     }

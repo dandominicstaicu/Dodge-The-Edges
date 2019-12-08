@@ -71,6 +71,7 @@
     <Compile Include="Assets\Scripts\Ending3.cs" />
     <Compile Include="Assets\Scripts\Ending4.cs" />
     <Compile Include="Assets\Scripts\gravitation.cs" />
+    <Compile Include="Assets\Scripts\IncrementValueOfLevels.cs" />
     <Compile Include="Assets\Scripts\MainMenu.cs" />
     <Compile Include="Assets\Scripts\MedKit.cs" />
     <Compile Include="Assets\Scripts\MobileDamageController.cs" />

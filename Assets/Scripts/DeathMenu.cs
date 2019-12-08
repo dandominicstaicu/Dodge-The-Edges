@@ -5,11 +5,9 @@ using UnityEngine;
 public class DeathMenu : MonoBehaviour
 {
     public GameObject deathMenuUI;
-
-    // Start is called before the first frame update
     public void Respawn()
     {
-        Application.LoadLevel("Nivel1");
+        Application.LoadLevel(PlayerPrefs.GetInt("lastLevel"));
     }
 
     public void QuitGame()
