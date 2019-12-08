@@ -26,6 +26,6 @@ public class NextLevelScript : MonoBehaviour
 
     public void NextLevel()
     {
-        Application.LoadLevel(SceneManager.GetActiveScene().buildIndex + 1);
+        Application.LoadLevel(2);
     }
 }
