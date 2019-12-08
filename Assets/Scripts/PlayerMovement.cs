@@ -6,7 +6,8 @@ public class PlayerMovement : MonoBehaviour
 {
 
     public CharacterController2D controller;
-    
+    public Animator animator;
+
 
     public float runSpeed = 40f;
 
@@ -14,20 +15,23 @@ public class PlayerMovement : MonoBehaviour
     bool jump = false;
     bool crouch = false;
     private Rigidbody2D rb2d;
-  
+
+
     void Start()
     {
         rb2d = GetComponent<Rigidbody2D>();
+        animator.SetBool("Grav", false);
     }
 
     // Update is called once per frame
     void Update()
     {
+
         horizontalMove = Input.GetAxisRaw("Horizontal") * runSpeed;
         if (Input.GetButtonDown("Jump"))
         {
             jump = true;
-        
+
         }
 
         if (Input.GetButtonDown("Crouch"))
@@ -40,11 +44,15 @@ public class PlayerMovement : MonoBehaviour
         }
         if (Input.GetButtonDown("GravityUp"))
         {
-            rb2d.gravityScale =-3;
+            animator.SetBool("Grav", true);
+            rb2d.gravityScale = -3;
+            SoundManagerScript.PlaySound("sus");
         }
         if (Input.GetButtonDown("GravityDown"))
         {
-            rb2d.gravityScale =3;
+            rb2d.gravityScale = 3;
+            animator.SetBool("Grav", false);
+            SoundManagerScript.PlaySound("jos");
         }
 
     }

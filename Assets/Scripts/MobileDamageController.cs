@@ -19,6 +19,6 @@ public class MobileDamageController : MonoBehaviour
     {
         healthController.playerHealth = healthController.playerHealth - bombDamage;
         healthController.UpdateHealth();
-     
+        SoundManagerScript.PlaySound("hit");
     }
 }

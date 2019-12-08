@@ -14,7 +14,7 @@ public class MobileHealthController : MonoBehaviour
     }
     void Update()
     {
-        if (playerHealth < 0)
+        if (playerHealth <= 0)
         {
             Application.LoadLevel("DeathScene");
         }
