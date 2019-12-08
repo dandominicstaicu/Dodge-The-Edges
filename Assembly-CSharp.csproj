@@ -76,6 +76,7 @@
     <Compile Include="Assets\Scripts\MedKit.cs" />
     <Compile Include="Assets\Scripts\MobileDamageController.cs" />
     <Compile Include="Assets\Scripts\MobileHealthController.cs" />
+    <Compile Include="Assets\Scripts\MusicClass.cs" />
     <Compile Include="Assets\Scripts\NextLevelScript.cs" />
     <Compile Include="Assets\Scripts\NextLevelScript1.cs" />
     <Compile Include="Assets\Scripts\NextLevelScript2.cs" />
@@ -83,6 +84,7 @@
     <Compile Include="Assets\Scripts\PauseMenu.cs" />
     <Compile Include="Assets\Scripts\PlayerMovement.cs" />
     <Compile Include="Assets\Scripts\SoundManagerScript.cs" />
+    <Compile Include="Assets\Scripts\VolumeValueChange.cs" />
     <Compile Include="Assets\Scripts\Waypoints.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01_UGUI.cs" />
