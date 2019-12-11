@@ -14,4 +14,32 @@ public class MainMenu : MonoBehaviour
         Debug.Log("QUIT!");
         Application.Quit();
     }
+    public void Levels()
+    {
+        Application.LoadLevel("Levels");
+    }
+    public void Level1()
+    {
+        Application.LoadLevel("Nivel1");
+    }
+    public void Level2()
+    {
+        Application.LoadLevel("Nivel2");
+    }
+    public void Level3()
+    {
+        Application.LoadLevel("Nivel3");
+    }
+    public void Level4()
+    {
+        Application.LoadLevel("Nivel4");
+    }
+    public void Level5()
+    {
+        Application.LoadLevel("Nivel5");
+    }
+    public void Meniu()
+    {
+        Application.LoadLevel("Menu");
+    }
 }
