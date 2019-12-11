@@ -12,6 +12,10 @@ public class NextLevelScript1 : MonoBehaviour
     {
         Application.LoadLevel("Nivel2");
     }
+    public void Levels()
+    {
+        Application.LoadLevel("Levels");
+    }
 
     public void QuitGame()
     {
