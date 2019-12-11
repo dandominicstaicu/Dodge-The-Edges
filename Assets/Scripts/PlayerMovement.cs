@@ -33,6 +33,11 @@ public class PlayerMovement : MonoBehaviour
             jump = true;
 
         }
+        if (Input.GetButtonDown("Reset"))
+        {
+            Application.LoadLevel(PlayerPrefs.GetInt("lastLevel"));
+
+        }
 
         if (Input.GetButtonDown("Crouch"))
         {
