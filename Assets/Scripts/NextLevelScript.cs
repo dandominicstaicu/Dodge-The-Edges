@@ -6,8 +6,10 @@ using UnityEngine.SceneManagement;
 public class NextLevelScript : MonoBehaviour
 {
     public GameObject nextLevelUI;
-
-    // Start is called before the first frame update
+    public void Start()
+    {
+        SoundManagerScript.PlaySound("hit");
+    }
     public void Restart()
     {
         Application.LoadLevel("Nivel1");

@@ -22,8 +22,6 @@ public class PlayerMovement : MonoBehaviour
         rb2d = GetComponent<Rigidbody2D>();
         animator.SetBool("Grav", false);
     }
-
-    // Update is called once per frame
     void Update()
     {
 
@@ -63,7 +61,6 @@ public class PlayerMovement : MonoBehaviour
     }
     void FixedUpdate()
     {
-        // Move our character
         controller.Move(horizontalMove * Time.fixedDeltaTime, crouch, jump);
         jump = false;
     }
