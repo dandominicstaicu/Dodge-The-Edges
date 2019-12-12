@@ -8,7 +8,7 @@ public class NextLevelScript1 : MonoBehaviour
     public GameObject nextLevelUI;
     public void Start()
     {
-        SoundManagerScript.PlaySound("hit");
+        SoundManagerScript.PlaySound("dead");
     }
     public void Restart()
     {
@@ -32,6 +32,22 @@ public class NextLevelScript1 : MonoBehaviour
 
     public void NextLevel()
     {
-        Application.LoadLevel(3);
+        Application.LoadLevel("Nivel3");
+    }
+    public void RestartE()
+    {
+        Application.LoadLevel("Nivel2e");
+    }
+    public void NextLevelE()
+    {
+        Application.LoadLevel("Nivel3e");
+    }
+    public void RestartM()
+    {
+        Application.LoadLevel("Nivel2m");
+    }
+    public void NextLevelM()
+    {
+        Application.LoadLevel("Nivel3m");
     }
 }

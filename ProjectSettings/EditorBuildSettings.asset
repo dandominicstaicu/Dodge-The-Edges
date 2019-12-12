@@ -27,6 +27,9 @@ EditorBuildSettings:
     path: Assets/Scenes/DeathScene.unity
     guid: 938bdccdccf487b488853f3be0338148
   - enabled: 1
+    path: Assets/Scenes/NextLevelSceneE.unity
+    guid: f875151b20f36e947badcf689f82d613
+  - enabled: 1
     path: Assets/Scenes/NextLevelScene.unity
     guid: 52d20e4ca1a12e4429c22a465879e443
   - enabled: 1
@@ -44,4 +47,43 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Levels.unity
     guid: 077acd3f3c58e8248ae41c9369adf7a4
+  - enabled: 1
+    path: Assets/Scenes/NextLevelScene 4.unity
+    guid: 06ebb4e1cf59f7b4799a3d01f6c2fe82
+  - enabled: 1
+    path: Assets/Scenes/NextLevelScene1e.unity
+    guid: da2aeff0d40aa8240b9546300b12f6e0
+  - enabled: 1
+    path: Assets/Scenes/Nivel1e.unity
+    guid: 668d065967ab8054087a6a981ebe5613
+  - enabled: 1
+    path: Assets/Scenes/Nivel2m.unity
+    guid: 5874ffda57e580f47904cb62228ea18c
+  - enabled: 1
+    path: Assets/Scenes/Nivel2e.unity
+    guid: 119b1a794f58ba74cb25bedd91015732
+  - enabled: 1
+    path: Assets/Scenes/Nivel1m.unity
+    guid: 761988d2ab3d29f4db8ee81e3b459010
+  - enabled: 1
+    path: Assets/Scenes/Nivel3e.unity
+    guid: 4f4092029aef4af44b4f9d18b25f62fa
+  - enabled: 1
+    path: Assets/Scenes/Nivel3m.unity
+    guid: 3faa7017efb5e344e89efb7f55997e26
+  - enabled: 1
+    path: Assets/Scenes/Nivel4e.unity
+    guid: 5c22f0cfaa3c6e24d98243df3f73b88d
+  - enabled: 1
+    path: Assets/Scenes/Nivel4m.unity
+    guid: b20c279575a5e8e4791dcb54b008f43b
+  - enabled: 1
+    path: Assets/Scenes/Nivel5e.unity
+    guid: 2f7dc0be29d8b0b43a422b8c00f6d2ea
+  - enabled: 1
+    path: Assets/Scenes/Nivel5m.unity
+    guid: 28033a6fe960f04408918dd87d7eb3ee
+  - enabled: 1
+    path: Assets/Scenes/Difficulty.unity
+    guid: 4dbb8b20fba31a54499e88f1d2f8b7df
   m_configObjects: {}

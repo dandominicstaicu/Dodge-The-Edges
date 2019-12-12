@@ -1748,4 +1748,4 @@ ScriptsOnlyBuild:
   - Assets/Scenes/NextLevelScene 3.unity
   - Assets/Scenes/WinScene.unity
   - Assets/Scenes/Levels.unity
-  playerPath: C:/Users/Denis/Desktop/Dodge the edgess/Dodge The Edges.exe
+  playerPath: C:/Users/Denis/Desktop/Dodge the edges/Dodge The Edges.exe
