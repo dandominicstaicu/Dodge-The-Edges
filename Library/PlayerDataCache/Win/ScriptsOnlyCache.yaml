@@ -23,9 +23,13 @@ ScriptsOnlyBuild:
     - SoundManagerScript
     - Waypoints
     Unity.2D.Tilemap.Editor.dll:
+    - UnityEditor.Tilemaps.GridBrush
+    - UnityEditor.Tilemaps.GridPaintPaletteClipboard
+    - UnityEditor.Tilemaps.GridPaintPaletteWindow
     - UnityEditor.Tilemaps.GridPaintingState
     - UnityEditor.Tilemaps.GridPaletteBrushes
     - UnityEditor.Tilemaps.GridPalettes
+    - UnityEditor.Tilemaps.PaintableSceneViewGrid
     - UnityEditor.Tilemaps.SceneViewGridManager
     - UnityEditor.Tilemaps.TileDragAndDropManager
     Unity.TextMeshPro.dll:
@@ -1748,4 +1752,4 @@ ScriptsOnlyBuild:
   - Assets/Scenes/NextLevelScene 3.unity
   - Assets/Scenes/WinScene.unity
   - Assets/Scenes/Levels.unity
-  playerPath: C:/Users/Denis/Desktop/Dodge the edges/Dodge The Edges.exe
+  playerPath: C:/Users/Rares/Desktop/BUILD/Dodge The Edges.exe

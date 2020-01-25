@@ -68,11 +68,11 @@
     <Compile Include="Assets\Scripts\DeathMenu.cs" />
     <Compile Include="Assets\Scripts\Ending.cs" />
     <Compile Include="Assets\Scripts\Ending1.cs" />
-    <Compile Include="Assets\Scripts\Ending1e.cs" />
     <Compile Include="Assets\Scripts\Ending2.cs" />
     <Compile Include="Assets\Scripts\Ending3.cs" />
     <Compile Include="Assets\Scripts\Ending4.cs" />
-    <Compile Include="Assets\Scripts\EndingE.cs" />
+    <Compile Include="Assets\Scripts\gravitation.cs" />
+    <Compile Include="Assets\Scripts\IncrementValueOfLevels.cs" />
     <Compile Include="Assets\Scripts\MainMenu.cs" />
     <Compile Include="Assets\Scripts\MedKit.cs" />
     <Compile Include="Assets\Scripts\MobileDamageController.cs" />

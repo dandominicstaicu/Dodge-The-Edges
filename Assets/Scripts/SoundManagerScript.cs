@@ -6,6 +6,7 @@ public class SoundManagerScript : MonoBehaviour
 {
        public static AudioClip playerHitSound, Sus, Jos;
     static AudioSource audioSrc;
+    // Start is called before the first frame update
     void Start()
     {
         playerHitSound = Resources.Load<AudioClip>("Hit");
@@ -15,6 +16,7 @@ public class SoundManagerScript : MonoBehaviour
         audioSrc = GetComponent<AudioSource>();
     }
 
+    // Update is called once per frame
     void Update()
     {
         
@@ -31,9 +33,6 @@ public class SoundManagerScript : MonoBehaviour
                 break;
             case "jos":
                 audioSrc.PlayOneShot(Jos);
-                break;
-            case "dead":
-                audioSrc.PlayOneShot(playerHitSound);
                 break;
         }
      
