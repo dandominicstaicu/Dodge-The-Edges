@@ -34926,7 +34926,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1019346753}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6069e18381f34824bbfc183c077d74ea, type: 3}
+  m_Script: {fileID: 11500000, guid: f53eea2e16dd2ed4fbcb8ff119bfc614, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!58 &1019346755
@@ -40407,7 +40407,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Level: 5-Don''t Rage!'
+  m_Text: 'Level: 6-Cool temple'
 --- !u!222 &2002055377
 CanvasRenderer:
   m_ObjectHideFlags: 0

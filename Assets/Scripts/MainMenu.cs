@@ -38,6 +38,14 @@ public class MainMenu : MonoBehaviour
     {
         Application.LoadLevel("Nivel5");
     }
+    public void Level6()
+    {
+        Application.LoadLevel("Nivel6");
+    }
+    public void Level7()
+    {
+        Application.LoadLevel("Nivel7");
+    }
     public void Meniu()
     {
         Application.LoadLevel("Menu");
