@@ -11,11 +11,11 @@ public class MobileDamageController : MonoBehaviour
     {
         if(collision.CompareTag("Player"))
         {
-            Damage();
+           Move();
         }
     
     }
-    void Damage()
+    void Move()
     {
         healthController.playerHealth = healthController.playerHealth - bombDamage;
         healthController.UpdateHealth();
