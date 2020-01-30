@@ -2,20 +2,16 @@
 
 public class MusicClass : MonoBehaviour
 {
-    private AudioSource _audioSource;
-    private void Awake()
+    private static MusicClass _instance;
+    void Awake()
     {
-        DontDestroyOnLoad(transform.gameObject);
-        _audioSource = GetComponent<AudioSource>();
-    }
-    public void PlayMusic()
-    {
-        if (_audioSource.isPlaying) return;
-        _audioSource.Play();
-    }
-    public void StopMusic()
-    {
-        _audioSource.Stop();
+        if (!_instance)
+            _instance = this;
+        else
+            Destroy(this.gameObject);
+
+
+        DontDestroyOnLoad(this.gameObject);
     }
     private AudioSource audioSrc;
     private float musicVolume = 1f;

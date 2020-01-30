@@ -5,7 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class MainMenu : MonoBehaviour
 {
-   public void PlayGame()
+    public void PlayGame()
    {
         Application.LoadLevel("Nivel1");
    }
@@ -44,7 +44,7 @@ public class MainMenu : MonoBehaviour
     }
     public void Level7()
     {
-        Application.LoadLevel("Nivel7");
+        Application.LoadLevel("Nivel7"); 
     }
     public void Meniu()
     {

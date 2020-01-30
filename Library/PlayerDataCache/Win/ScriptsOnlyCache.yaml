@@ -47,7 +47,6 @@ ScriptsOnlyBuild:
     - UnityEditor.Graphs.AnimatorControllerTool
     UnityEditor.TestRunner.dll:
     - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
-    - UnityEditor.TestTools.TestRunner.TestListCacheData
     UnityEngine.UI.dll:
     - UnityEngine.EventSystems.EventSystem
     - UnityEngine.EventSystems.StandaloneInputModule
@@ -1081,6 +1080,8 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 9968}
     - Class: 114
+      Script: {instanceID: 10124}
+    - Class: 114
       Script: {instanceID: 10250}
     - Class: 114
       Script: {instanceID: 10322}
@@ -1099,15 +1100,11 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 10938}
     - Class: 114
-      Script: {instanceID: 11004}
-    - Class: 114
       Script: {instanceID: 11230}
     - Class: 114
       Script: {instanceID: 11260}
     - Class: 114
       Script: {instanceID: 11402}
-    - Class: 114
-      Script: {instanceID: 11490}
     - Class: 114
       Script: {instanceID: 11638}
     - Class: 115
@@ -1182,8 +1179,6 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 9968}
     - Class: 114
-      Script: {instanceID: 10124}
-    - Class: 114
       Script: {instanceID: 10250}
     - Class: 114
       Script: {instanceID: 10322}
@@ -1202,11 +1197,15 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 10938}
     - Class: 114
+      Script: {instanceID: 11004}
+    - Class: 114
       Script: {instanceID: 11230}
     - Class: 114
       Script: {instanceID: 11260}
     - Class: 114
       Script: {instanceID: 11402}
+    - Class: 114
+      Script: {instanceID: 11490}
     - Class: 114
       Script: {instanceID: 11638}
     - Class: 115
@@ -2084,4 +2083,4 @@ ScriptsOnlyBuild:
   - Assets/Scenes/NextLevelScene 5.unity
   - Assets/Scenes/WinScene.unity
   - Assets/Scenes/Levels.unity
-  playerPath: C:/Users/Denis/Desktop/Dodge my dick/Dodge The Edges.exe
+  playerPath: C:/Users/Denis/Desktop/Dodge it/Dodge The Edges.exe
